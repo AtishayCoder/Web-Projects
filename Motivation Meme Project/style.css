@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: black;
+    padding-top: 70px;
+}
+
+div{
+    background-color: black;
+}
+
+img{
+    border: 5px solid gold;
+    height: 300px;
+    width: 300px;
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+    color: gold;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+p{
+    color: white;
+    font-size: large;
+}
+
+span{
+    font-size: 1.6rem;
+}
