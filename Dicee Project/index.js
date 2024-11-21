@@ -10,5 +10,5 @@ if (d1 > d2) {
     document.querySelector("h1").innerHTML = "It's a tie!";
 }
 
-document.querySelector(".img1").setAttribute("src", "dice" + d1.toString());
-document.querySelector(".img2").setAttribute("src", "dice" + d2.toString());
+document.querySelector(".img1").setAttribute("src", "dice".concat(d1.toString()));
+document.querySelector(".img2").setAttribute("src", "dice".concat(d2.toString()));
